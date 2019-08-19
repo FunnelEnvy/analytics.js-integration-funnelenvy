@@ -16,17 +16,6 @@ module.exports = function(config) {
 
     reporters: ["spec"],
 
-    browsers: ["ChromeHeadless"],
-
-    // for development only
-  //   client: {
-  //     captureConsole: true
-  //   },
-  //   browserConsoleLogOptions: {
-  //     level: "log",
-  //     format: "%b %T: %m",
-  //     terminal: true
-  //   },
-  //   logLevel: "ALL"
-  // });
+    browsers: ["ChromeHeadless"]
+  });
 };
