@@ -8,8 +8,16 @@
     "test": "karma start -no-auto-watch",
     "test:ci": "karma start karma.conf-ci.js"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FunnelEnvy/analytics.js-integration-funnelenvy.git"
+  },
   "author": "Arun Sivashankaran <arun@funnelenvy.com> (http://www.funnelenvy.com/)",
-  "license": "MIT",
+  "license": "SEE LICENSE IN LICENSE",
+  "bugs": {
+    "url": "https://github.com/FunnelEnvy/analytics.js-integration-funnelenvy/issues"
+  },
+  "homepage": "https://github.com/FunnelEnvy/analytics.js-integration-funnelenvy#readme",
   "dependencies": {
     "@segment/analytics.js-integration": "^2.1.1",
     "@segment/fmt": "^1.0.0",
